@@ -1,0 +1,449 @@
+HW Notification 0x2 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Intel RMT State 0x3 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Delay Optimization 0xC Setup
+Disabled: 0x0 (default)
+Enabled: 0x1
+
+PECI 0x56A Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Execute Disable Bit 0x565 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Hyper-Threading 0x56B Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+AP threads Idle Manner 0x66F Setup
+HALT Loop: 0x1
+MWAIT Loop: 0x2 (default)
+RUN Loop: 0x3
+
+AP threads Handoff Manner 0x670 Setup
+HALT Loop: 0x1
+MWAIT Loop: 0x2 (default)
+
+MachineCheck 0x635 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+MonitorMWait 0x636 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Three Strike Counter 0x759 Setup
+Disabled: 0x1
+Enabled: 0x0 (default)
+
+Voltage Optimization 0x72C Setup
+Disabled: 0x0
+Enabled: 0x1
+Auto: 0x2 (default)
+
+Race To Halt (RTH) 0x570 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Intel Speed Shift Technology 0x571 Setup
+Enabled: 0x1 (default)
+Disabled: 0x0
+
+HDC Control 0x5A9 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+CState Pre-Wake 0x59C Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Interrupt Redirection Mode Selection 0x5A8 Setup
+Fixed Priority: 0x0
+Round robin: 0x1
+
+EPG DIMM Idd3N 0x88E Setup
+Min: 0x0, Max: 0x7D0
+
+EPG DIMM Idd3P 0x890 Setup
+Min: 0x0, Max: 0x7D0
+
+Energy Efficient P-state 0x59B Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Energy Efficient Turbo 0x70A Setup
+Disabled: 0x0
+Enabled: 0x1
+Auto: 0x2 (default)
+
+TDC Enable 0x6D6 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+ME State 0x2 MeSetupStorage (0x14)
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Bi-directional PROCHOT# 0x5DC Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PS2 Keyboard and Mouse 0x2A9 Setup
+Enabled: 0x1 (default MFG)
+Disabled: 0x0
+
+BCLK Aware Adaptive Voltage 0x739 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Ring Down Bin 0x746 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+TVB Voltage Optimizations 0x74D Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Command Rate Support 0x7B3 Setup
+Disabled: 0x0
+
+ICC PLL Shutdown 0x4C4 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Enable Hibernation 0x103A Setup
+ACPI Settings
+ACPI Standby State 0x1037 Setup
+Suspend Disabled: 0x0
+S3: 0x2
+
+PCI-X Latency Timer 0x1228 Setup
+32 PCI Bus Clocks: 0x20
+64 PCI Bus Clocks: 0x40 (default)
+
+BME DMA Mitigation 0x1223 Setup
+Disabled: 0x0
+Enabled: 0x1
+
+USB S5 Wakeup Support 0x30 UsbSupport (0x2F)
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+SA GV 0x8E5 Setup
+Disabled: 0x0
+Fixed Low: 0x1
+Fixed High: 0x2
+Enabled: 0x3 (default)
+
+Command Tristate 0x8DE Setup
+Enabled: 0x0 (default)
+Disabled: 0x1
+
+Enable RH Prevention 0x959 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Pwr Down Idle Timer 0x7A3 Setup
+Min: 0x0, Max: 0xFF
+
+GMM Device (B0:D8:F0) 0x898 Setup
+Enabled: 0x1 (default)
+Disabled: 0x0
+
+DMI Link ASPM Control 0x8B3 Setup
+Disabled: 0x0
+L1: 0x2 (default)
+
+OBFF 0x827 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+LTR 0x824 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Enable Root Port 0x809 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+Auto: 0x2
+
+Enable Root Port 0x80A Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+Auto: 0x2
+
+PEG0 Max Payload size 0x821 Setup
+Auto: 0xFF (default)
+128: 0x0
+256 TLP: 0x1
+
+PCIe Spread Spectrum Clocking 0x817 Setup
+Enabled: 0x0 (default)
+Disabled: 0x1
+
+DDR PowerDown and idle counter 0x90F Setup
+PCODE: 0x0
+BIOS: 0x1 (default)
+
+For LPDDR Only: DDR PowerDown and idle counter 0x910 Setup
+PCODE: 0x0
+BIOS: 0x1 (default)
+
+Throttler CKEMin Timer 0x94B Setup
+Min: 0x0, Max: 0xFF
+
+LAN Wake From DeepSx 0x9AC Setup
+Enabled: 0x1 (default)
+Disabled: 0x0
+
+Wake on LAN Enable 0x9B3 Setup
+Enabled: 0x1 (default)
+Disabled: 0x0
+
+SLP_LAN# Low on DC Power 0x9B4 Setup
+Enabled: 0x1 (default)
+Disabled: 0x0
+
+Port 61h Bit-4 Emulation 0x9C4 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCH Cross Throttling 0xF62 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Disable Energy Reporting 0x9B9 Setup
+FALSE: 0x0 (default)
+TRUE: 0x1
+
+Pcie Pll SSC 0x9C5 Setup
+Auto: 0xFF (default)
+0.0%: 0x0
+
+IOAPIC 24-119 Entries 0xF61 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Clock Gating 0xA5A Setup
+Disabled: 0x1
+Enabled: 0x0 (default)
+
+Legacy IO Low Latency 0x1005 Setup
+Disabled: 0x0 (default)
+Enabled: 0x1
+
+XHCI Disable Compliance Mode 0x9E4 Setup
+FALSE: 0x0 (default)
+TRUE: 0x1
+
+SATA Controller(s) 0x9E8 Setup
+Enabled: 0x1 (default)
+Disabled: 0x0
+
+Intel Rapid Recovery Technology 0xA26 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Intel Optane| VarOffset: 0x1007 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 1 0xA66 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 2 0xA67 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 4 0xA69 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 5 0xA6A Setup
+Enabled: 0x1 (default)
+Disabled: 0x0
+
+PCI Express Root Port 6 0xA6B Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 7 0xA6C Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 8 0xA6D Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 10 0xA6F Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 11 0xA70 Setup
+Enabled: 0x1 (default)
+Disabled: 0x0
+
+PCI Express Root Port 12 0xA71 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 13 0xA72 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 14 0xA73 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 15 0xA74 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 16 0xA75 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 17 0xA76 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 18 0xA77 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 19 0xA78 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 20 0xA79 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 22 0xA7B Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 23 0xA7C Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCI Express Root Port 24 0xA7D Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PME SCI 0xB70 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCIe Speed 0xBB8 Setup
+Auto: 0x0 (default)
+Gen3: 0x3
+
+PCH PCIE3 LTR 0xCB4 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCIE3 CLKREQ Mapping Override 0xDBC Setup
+Default: 0x0 (default)
+No CLKREQ: 0x1
+
+PME SCI 0xB76 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCIe Speed 0xBBE Setup
+Auto: 0x0 (default)
+Gen3: 0x3
+
+PCH PCIE9 LTR 0xCBA Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCIE9 CLKREQ Mapping Override 0xDC2 Setup
+Default: 0x0 (default)
+No CLKREQ: 0x1
+
+PME SCI 0xB82 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCIe Speed 0xBCA Setup
+Auto: 0x0 (default)
+Gen3: 0x3
+
+PCH PCIE21 LTR 0xCC6 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+PCIE20 CLKREQ Mapping Override 0xDCE Setup
+Default: 0x0 (default)
+No CLKREQ: 0x1
+
+eMMC 5.0 Controller 0xF64 Setup
+Enabled: 0x1 (default)
+Disabled: 0x0
+
+SDCard 3.0 Controller 0xF67 Setup
+Enabled: 0x1 (default)
+Disabled: 0x0
+
+PS2 Devices Support 0x1010 Setup
+Disabled: 0x0
+Enabled: 0x1 (default MFG)
+
+TPM State 0x1014 Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+Secure Boot Support 0x0 SecureBootSetup (0x31)
+Disabled: 0x0
+Enabled: 0x1 (default MFG)
+
+Provision Factory Default keys 0x2 SecureBootSetup (0x31)
+Disabled: 0x0
+Enabled: 0x1 (default MFG)
+
+CPU PCI-E Lane Configuration 0x14C7 Setup
+Auto: 0x0 (default)
+x16/x0/x0: 0x1
+
+CPU Memory Changed Detect 0x10BB Setup
+Disabled: 0x0
+Enabled: 0x1 (default)
+
+tRCD 0x10C9 Setup
+Min: 0x0, Max: 0x3F
+
+tRCD 0x112D Setup
+Min: 0x0, Max: 0x3F
+
+tRP 0x10CB Setup
+Min: 0x0, Max: 0x3F
+
+Package C State Limit 0x5AA Setup
+C0: 0x0
+
+TVB Ratio Clipping 0x120D Setup
+Auto: 0x0 (default)
+Disabled: 0x1
+Enabled: 0x2
+
+TVB Voltage Optimizations 0x120E Setup
+Auto: 0x0 (default)
+Disabled: 0x1
+Enabled: 0x2
+
+Adjusted DRAM Frequency Value 0x10BD Setup
+Min: 0x0, Max: 0x2710
+
+Related to Adjust DRAM Frequency??? VarOffset: 0x10B9 Setup
+Auto: 0x0 (default)
+
